@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Document</title>
+</head>
+<body>
+	<h1 class="header-w3ls">
+         Web Application to forecast for food delivery companies
+      </h1>
+    <div class="art-bothside">
+    
+    <form action="/login" method="post">
+        <div class="sub-agile-info">
+                  <h6>Is the food item featured on the homepage ?</h6>
+               </div>
+               <div class="form-group-three">
+                  <div class="form-left-three-w3l">
+                     <div class="iner-left">
+                        <label>	Yes or No</label>
+                     </div>
+                     <div class="form-inn">
+                        <select class="opt-select country-buttom" name="hp">
+                           <option value="y">Yes</option>
+            <option value="n">No</option>
+                        </select>
+                     </div>
+                  </div>
+                 </div>	
+        <br>
+        <div class="sub-agile-info">
+                  <h6>Is the food item listed under a promotion?</h6>
+               </div>
+               <div class="form-group-three">
+                  <div class="form-left-three-w3l">
+                     <div class="iner-left">
+                        <label>	Yes or No</label>
+                     </div>
+                     <div class="form-inn">
+                        <select class="opt-select country-buttom" name="pr">
+                           <option value="y">Yes</option>
+            <option value="n">No</option>
+                        </select>
+                     </div>
+                  </div>
+                 </div>	
+        <div class="form-mid-w3ls">
+				<input type="text" placeholder="Area of operation (in km^2)" name ="op" required="">
+        	 </div>
+        
+ <div class="sub-agile-info">
+                  
+               </div>
+               <div class="form-group-three">
+                  <div class="form-left-three-w3l">
+                     <div class="iner-left">
+                        <label>	Type of Cuisine</label>
+                     </div>
+                     <div class="form-inn">
+                        <select class="opt-select country-buttom" name="cu">
+                           <option value="">
+                              Example:Indian
+                           </option>
+                           <option value="0">Continental</option>
+            <option value="1">Indian</option>
+            <option value="2">Italian</option>
+            <option value="3">Thai</option>
+                        </select>
+                     </div>
+                  </div>
+                 </div>
+	<div class="form-group">
+        	<div class="form-right-w3ls">
+				<input type="text" placeholder="City Code" name ="ccode" required="">
+        	 </div>
+        	<div class="form-left-w3ls">
+				<input type="text" placeholder="Region Code" name ="rcode" required="">
+		</div>
+         </div>
+        <div class="sub-agile-info">
+                  
+               </div>
+               <div class="form-group-three">
+                  <div class="form-left-three-w3l">
+                     <div class="iner-left">
+                        <label>	Category</label>
+                     </div>
+                     <div class="form-inn">
+                        <select class="opt-select country-buttom" name="cat">
+                           <option value="">
+                              Example:Biryani
+                           </option>
+                           <option value="Beverages">Beverages</option>
+                           <option value="Biryani">Biryani</option>
+            <option value="Dessert">Dessert</option>
+            <option value="Extras">Extras</option>
+            <option value="Fish">Fish</option>
+            <option value="Other Snacks">Other Snacks</option>
+            <option value="Pasta">Pasta</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Rice Bowl">Rice Bowl</option>
+            <option value="Salad">Salad</option>
+            <option value="Sandwich">Sandwich</option>
+            <option value="Seafood">Seafood</option>
+            <option value="Soup">Soup</option>
+            <option value="Starters">Starters</option>
+                        </select>
+                     </div>
+                  </div>
+                 </div>
+                          <div class="set-reset">
+               <input type="submit"  value="Submit">
+               <input type="reset"  value="Clear Form">
+            </div>
+    </form>
+    <h1 class="header-w3ls1">
+         {{y}}
+      </h1>
+    </div>
+    
+</body>
+</html>
